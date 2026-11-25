@@ -36,3 +36,10 @@ This file is the history of the project. Append an entry when a choice changes t
 - Why. The draws check the model. They are not used to choose the stake or to score the 380 holdout matches. The maximum likelihood estimate starts from a fixed point and does not use the seed.
 - Alternative. Leave the check unseeded.
 - Revisit. Change the seed only if the check is replaced. The held-out profit does not depend on it.
+
+## 2026-11-25: Keep the rule after the holdout
+
+- Decision. The 29 October rule stays. Stake one unit on the over or the under only when the probability clears the Bet365 closing price, and pass otherwise. The talk states that rule. On the 380 held-out matches, a stake that does not clear the price does not beat a pass.
+- Why. Forcing a stake on the 78 passes earns +0.0035 stake units per holdout match. Betting the preferred side on every match earns −0.0004. The Poisson rule earns −0.0039 and the training over-rate earns +0.0126. None of these is separated from 0 by its standard error.
+- Alternative. Bet a side on every match, or pass every match and drop the price test.
+- Revisit. Change the rule if a later season shows a stake that does not clear the price earning a higher mean profit per match than passing, by more than the standard error.
