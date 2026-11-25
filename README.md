@@ -6,7 +6,7 @@ Follow the [final project lab](https://vsokolov.org/labs/final-project-lab.html)
 
 ## Who
 
-Rahul Boddapati and Sam Banjade.
+Rahul Boddapati (`RahulBoddapati`) and Sam Banjade (`sambanjade`).
 
 ## Fork
 
@@ -56,7 +56,7 @@ Leave the data files out of git. A file you are allowed to republish goes on the
 
 R or Python. Use the language you can explain. AI assistants are allowed. On your fork, add one line to this README: what you used, and for what. You are responsible for everything on `main`, including the parts you did not write.
 
-AI tools: Cursor, using Grok, drafted `analysis.ipynb`, the `decisions.md` entries after 29 October, and `presentation.qmd`, and ran the notebook.
+AI tools: Cursor was used to edit and format the notebook, the slides, and the checklist, and to draft some of the analysis and presentation wording.
 
 ## Files
 
