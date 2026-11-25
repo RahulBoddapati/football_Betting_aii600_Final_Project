@@ -3,6 +3,8 @@
 .Rproj.user/
 __pycache__/
 .ipynb_checkpoints/
+.ipython/
+.jupyter/
 .venv/
 venv/
 .env

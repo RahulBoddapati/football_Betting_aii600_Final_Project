@@ -1,5 +1,5 @@
 ---
-title: "Project title"
+title: "Pass unless the 2.5 price clears"
 format:
   revealjs:
     embed-resources: true
@@ -11,16 +11,30 @@ format:
 
 ## Action
 
-What should be done. Replace this sentence.
+Pass, unless the forecast clears the Bet365 closing price.
+
+Stake one unit on the over when \(p > 1/o_{\text{over}}\), one unit on the under when \(1 - p > 1/o_{\text{under}}\), and pass otherwise. \(Q\) is the full-time total, in goals. The line is 2.5.
+
+A pass earns 0. A winning unit pays \(o - 1\). A losing unit costs 1. Staking before \(p\) clears the price is the costlier mistake: the overround makes that stake a negative expected profit.
 
 ## Reason
 
-Why, in the decision maker's units. The held-out score in `analysis.ipynb` has to agree with this slide.
+The score is mean profit per match against always passing. On the 380 matches from 16 August 2024 through 25 May 2025:
+
+- Poisson strengths: **−0.0039** stake units (standard error 0.0546)
+- Training over-rate: **+0.0126** stake units (standard error 0.0555)
+- A pass: **0**
+
+The Poisson rule is 0.0164 behind the training over-rate. The standard error of that gap is 0.0451. The two rules tie on 59.7% of matches.
 
 ## Risk
 
-The main risk of the action: a probability or a cost, not the held-out score.
+A stake the rule places loses the unit **57%** of the time.
+
+The rule stakes on 302 of the 380 matches. A 95% interval for \(p\) crosses a price that would change the stake on 80% of matches.
 
 ## Value
 
-What it is worth to be less wrong, in the units of the loss.
+A call that already knew the winner would earn **+0.931** stake units per match on these prices.
+
+That is **0.934** more than the Poisson rule. A refit that lets attack and defence change by season is worth keeping only if it moves this profit by more than 0.045 stake units per match.
